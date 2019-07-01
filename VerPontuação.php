@@ -1,7 +1,8 @@
 ﻿<?php
 //Faz a conxão
 mb_internal_encoding("UTF-8");
-$enlace = mysqli_connect("localhost" , "usuario" , "password" , "base_de_dados");
+$enlace = mysqli_connect("host", "username", "password", "database");
+
 //Verifica se falhou ou não
 if (mysqli_connect_errno()) 
 {

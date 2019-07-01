@@ -1,7 +1,7 @@
 ﻿<?php
 
 mb_internal_encoding("UTF-8");
-$enlace = mysqli_connect("localhost", "usario_bd1", "bd1", "usario_bd1");
+$enlace = mysqli_connect("host", "username", "password", "database");
 
 if (mysqli_connect_erro()) {
 	printf("Conexão Falhou: %s\n", mysqli_connect_erro());
